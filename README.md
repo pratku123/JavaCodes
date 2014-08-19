@@ -2,4 +2,4 @@ JavaCodes
 =========
 
 Basic java codes
-Code 1
+Adding a few of my programs made in Java language.
