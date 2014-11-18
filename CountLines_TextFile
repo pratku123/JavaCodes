@@ -1,0 +1,21 @@
+//WAP to count the number of lines in a text file.
+//Classes used FileReader, bufferedReader
+
+import java.io.*;
+class CountLines
+{
+public static void main(String arg[])throws IOException
+{
+ FileReader f=new FileReader("words.txt");
+ BufferedReader br=new BufferedReader(f);
+ String s="";
+int c=0;
+ while((s=br.readLine())!=null)
+{
+c++;
+//System.out.println(s);
+}
+System.out.println("The number of lines are:"+c);
+f.close();
+}
+}
